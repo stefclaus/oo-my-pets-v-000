@@ -1,6 +1,6 @@
 class Owner
 
-attr_accessor :name, :pets 
+attr_accessor :name, :pets, :fish 
 attr_reader :species 
 
 @@all = []
@@ -33,8 +33,8 @@ def self.count
 end 
 
 
-def buy_fish(name)
-  Fish.new 
+def buy_fish
+  @@all << @fish
 end 
 
 
