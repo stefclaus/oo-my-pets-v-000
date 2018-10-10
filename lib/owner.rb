@@ -33,9 +33,12 @@ def self.count
 end 
 
 
-def buy_fish
-  @@all << @fish
+def buy_fish(fish)
+  @@all << fish
+  fish.owner = self 
 end 
+
+ 
 
 
 end
