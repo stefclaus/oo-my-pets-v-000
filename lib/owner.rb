@@ -69,7 +69,6 @@ def sell_pets
 end 
 
 def list_pets
-   pets.each do |type, pets|
       fish = pets[:fishes].count 
       dog = pets[:dogs].count 
       cat = pets[:cats].count
