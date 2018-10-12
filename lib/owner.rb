@@ -52,5 +52,8 @@ def walk_dogs
   pets[:dogs].map {|dog| dog.mood = "happy"}
 end 
 
+def plays_with_cats 
+  pets[:cats].collect {|dog| dog.mood = "happy"}
+end 
 
 end
