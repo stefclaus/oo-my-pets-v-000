@@ -48,5 +48,33 @@ def buy_dog(name)
   @pets[:dogs] << new_dog 
 end 
 
+def walk_dogs 
+  pets[:dogs].map {|dog| dog.mood = "happy"}
+end 
 
+def play_with_cats 
+  pets[:cats].collect {|cat| cat.mood = "happy"}
+end 
+
+def feed_fish
+  pets[:fishes].map {|fish| fish.mood = "happy"}
 end
+
+def sell_pets
+  pets[:fishes].map {|fish| fish.mood = "nervous"}
+  pets[:cats].collect {|cat| cat.mood = "nervous"}
+  pets[:dogs].map {|dog| dog.mood = "nervous"}
+
+  pets.clear
+end 
+
+def list_pets
+      fish = pets[:fishes].count 
+      dog = pets[:dogs].count 
+      cat = pets[:cats].count
+"I have #{fish} fish, #{dog} dog(s), and #{cat} cat(s)."
+end 
+
+
+
+end 
