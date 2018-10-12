@@ -71,6 +71,8 @@ end
 def list_pets
    pets.each do |type, pets|
       fish = pets[:fishes].count 
+      dog = pets[:dogs].count 
+      cat = pets[:cats].count
   puts "I have #{fish} fish, #{} dog(s), and #{} cat(s)."
 end 
 
