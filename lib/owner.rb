@@ -49,7 +49,7 @@ def buy_dog(name)
 end 
 
 def walk_dogs 
-  dog.mood="Happy"
+  pets.mood="Happy"
 end 
 
 
