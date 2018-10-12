@@ -72,7 +72,7 @@ def list_pets
       fish = pets[:fishes].count 
       dog = pets[:dogs].count 
       cat = pets[:cats].count
-  puts "I have #{fish} fish, #{dog} dog(s), and #{cat} cat(s)."
+"I have #{fish} fish, #{dog} dog(s), and #{cat} cat(s)."
 end 
 
 
