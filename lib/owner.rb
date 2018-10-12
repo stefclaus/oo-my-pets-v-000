@@ -68,5 +68,10 @@ def sell_pets
   pets.clear
 end 
 
+def list_pets 
+  puts @pets 
+end 
+
+
 
 end 
