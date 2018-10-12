@@ -65,10 +65,12 @@ def sell_pets
   pets[:cats].collect {|cat| cat.mood = "nervous"}
   pets[:dogs].map {|dog| dog.mood = "nervous"}
 
-  pets[:fishes] = []
-  pets[:cats] = []
-  pets[:dogs] = []
+  pets.clear
   
+  # pets.each do |type, pets|
+  #    pets.map {|pet| pet.mood = "nervous"}
+  #  end
+  #  pets.clear
 end 
 
 
