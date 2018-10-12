@@ -49,7 +49,7 @@ def buy_dog(name)
 end 
 
 def walk_dogs 
-  @pets.mood="Happy"
+  pets[:dogs].map {|dog| dog.mood = "happy"}
 end 
 
 
