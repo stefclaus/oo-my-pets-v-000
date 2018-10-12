@@ -50,6 +50,7 @@ end
 
 def walk_dogs 
   @pets.each do {|pets| if pet == dog}
+end 
   dog.mood="Happy"
 end 
 
