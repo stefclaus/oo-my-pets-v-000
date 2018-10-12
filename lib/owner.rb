@@ -48,5 +48,9 @@ def buy_dog(name)
   @pets[:dogs] << new_dog 
 end 
 
+def walk_dogs 
+  dog.mood="Happy"
+end 
+
 
 end
