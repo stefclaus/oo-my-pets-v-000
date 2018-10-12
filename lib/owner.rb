@@ -61,9 +61,9 @@ def feed_fish
 end
 
 def sell_pets
-  pets[:fishes].map {|fish| fish.mood = "happy"}
-  pets[:cats].collect {|cat| cat.mood = "happy"}
-  pets[:dogs].map {|dog| dog.mood = "happy"}
+  pets[:fishes].map {|fish| fish.mood = "nervous"}
+  pets[:cats].collect {|cat| cat.mood = "nervous"}
+  pets[:dogs].map {|dog| dog.mood = "nervous"}
 end 
 
 
