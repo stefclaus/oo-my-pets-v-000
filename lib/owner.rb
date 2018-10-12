@@ -69,7 +69,8 @@ def sell_pets
 end 
 
 def list_pets
-  
+   pets.each do |type, pets|
+      pets.count {|pet| pet.mood = "nervous"}
   puts "I have #{} fish, #{} dog(s), and #{} cat(s)."
 end 
 
