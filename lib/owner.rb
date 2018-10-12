@@ -60,5 +60,10 @@ def feed_fish
   pets[:fishes].map {|fish| fish.mood = "happy"}
 end
 
+def sell_pets
+  pets.map {|pet| pet.mood = "nervous"}
+end 
+
+
 
 end 
