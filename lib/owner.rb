@@ -53,7 +53,7 @@ def walk_dogs
 end 
 
 def plays_with_cats 
-  pets[:cats].collect {|dog| dog.mood = "happy"}
+  pets[:cats].collect {|cat| cat.mood = "happy"}
 end 
 
 end
