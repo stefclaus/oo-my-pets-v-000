@@ -49,7 +49,8 @@ def buy_dog(name)
 end 
 
 def walk_dogs 
-  pets.mood="Happy"
+  @pets.each do {|pets| if pet == dog}
+  .mood="Happy"
 end 
 
 
