@@ -68,7 +68,8 @@ def sell_pets
   pets.clear
 end 
 
-def list_pets 
+def list_pets
+  
   puts "I have #{} fish, #{} dog(s), and #{} cat(s)."
 end 
 
