@@ -70,8 +70,8 @@ end
 
 def list_pets
    pets.each do |type, pets|
-      pets.count {|pet| pet.mood = "nervous"}
-  puts "I have #{} fish, #{} dog(s), and #{} cat(s)."
+      fish = pets[:fishes].count 
+  puts "I have #{fish} fish, #{} dog(s), and #{} cat(s)."
 end 
 
 
