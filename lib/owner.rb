@@ -69,7 +69,7 @@ def sell_pets
 end 
 
 def list_pets 
-  puts @pets 
+  puts "I have #{} fish, #{} dog(s), and #{} cat(s)."
 end 
 
 
